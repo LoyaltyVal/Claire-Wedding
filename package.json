@@ -1,0 +1,31 @@
+{
+  "name": "claires-wedding-website",
+  "version": "1.0.0",
+  "description": "A beautiful wedding planning website for Claire's Events",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to your hosting provider'"
+  },
+  "keywords": [
+    "wedding",
+    "planning",
+    "events",
+    "portfolio",
+    "website",
+    "static"
+  ],
+  "author": "Claire's Events",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/claires-wedding-website.git"
+  },
+  "homepage": "https://clairesevents.com"
+}

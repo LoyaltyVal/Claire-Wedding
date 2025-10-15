@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusted Partners - Claire's Wedding Planning Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Claire's Events</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#services" class="nav-link">Services</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="partners.html" class="nav-link active">Partners</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Partners Hero -->
+    <section class="partners-hero">
+        <div class="container">
+            <div class="partners-hero-content">
+                <h1>Trusted Partners</h1>
+                <p>I work with the most talented and reliable professionals in the industry to bring your vision to life. Meet my trusted network of vendors who help create unforgettable experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Filter -->
+    <section class="partners-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Partners</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="videography">Videography</button>
+                <button class="filter-btn" data-filter="music">Music & DJ</button>
+                <button class="filter-btn" data-filter="catering">Catering</button>
+                <button class="filter-btn" data-filter="florals">Florals</button>
+                <button class="filter-btn" data-filter="venues">Venues</button>
+                <button class="filter-btn" data-filter="beauty">Beauty</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Grid -->
+    <section class="partners-grid-section">
+        <div class="container">
+            <div class="partners-grid">
+                <!-- Photography Partners -->
+                <div class="partner-card" data-category="photography">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Sarah Johnson Photography">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="partner-category">Photography</p>
+                        <p class="partner-description">Specializing in romantic, candid wedding photography with a natural, timeless style.</p>
+                        <div class="partner-features">
+                            <span>10+ Years Experience</span>
+                            <span>Destination Weddings</span>
+                            <span>Engagement Sessions</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                            <p><i class="fas fa-envelope"></i> sarah@sarahjohnsonphoto.com</p>
+                            <p><i class="fas fa-globe"></i> sarahjohnsonphoto.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-card" data-category="photography">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Mike Chen Photography">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Mike Chen</h3>
+                        <p class="partner-category">Photography</p>
+                        <p class="partner-description">Creative wedding photographer capturing authentic moments with artistic flair.</p>
+                        <div class="partner-features">
+                            <span>Documentary Style</span>
+                            <span>Film Photography</span>
+                            <span>Same Day Edits</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 234-5678</p>
+                            <p><i class="fas fa-envelope"></i> mike@mikechenphoto.com</p>
+                            <p><i class="fas fa-globe"></i> mikechenphoto.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Videography Partners -->
+                <div class="partner-card" data-category="videography">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Creative Films Studio">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Creative Films Studio</h3>
+                        <p class="partner-category">Videography</p>
+                        <p class="partner-description">Cinematic wedding films that tell your unique love story with emotion and artistry.</p>
+                        <div class="partner-features">
+                            <span>Cinematic Style</span>
+                            <span>Drone Footage</span>
+                            <span>Same Day Highlights</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 345-6789</p>
+                            <p><i class="fas fa-envelope"></i> hello@creativefilms.com</p>
+                            <p><i class="fas fa-globe"></i> creativefilms.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-card" data-category="videography">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Wedding Stories Co.">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Wedding Stories Co.</h3>
+                        <p class="partner-category">Videography</p>
+                        <p class="partner-description">Documentary-style wedding films capturing the raw emotions and candid moments.</p>
+                        <div class="partner-features">
+                            <span>Documentary Style</span>
+                            <span>Multiple Cameras</span>
+                            <span>Full Day Coverage</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 456-7890</p>
+                            <p><i class="fas fa-envelope"></i> info@weddingstories.com</p>
+                            <p><i class="fas fa-globe"></i> weddingstories.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music & DJ Partners -->
+                <div class="partner-card" data-category="music">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="DJ Elite Entertainment">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>DJ Elite Entertainment</h3>
+                        <p class="partner-category">Music & DJ</p>
+                        <p class="partner-description">Professional DJ services with state-of-the-art equipment and extensive music library.</p>
+                        <div class="partner-features">
+                            <span>Lighting Package</span>
+                            <span>MC Services</span>
+                            <span>All Music Genres</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 567-8901</p>
+                            <p><i class="fas fa-envelope"></i> dj@djelite.com</p>
+                            <p><i class="fas fa-globe"></i> djelite.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-card" data-category="music">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1511192336575-5a79af67a629?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Elegant Strings Quartet">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Elegant Strings Quartet</h3>
+                        <p class="partner-category">Music & DJ</p>
+                        <p class="partner-description">Classical string quartet providing elegant ceremony and cocktail hour music.</p>
+                        <div class="partner-features">
+                            <span>Classical Music</span>
+                            <span>Custom Arrangements</span>
+                            <span>Ceremony & Cocktail</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 678-9012</p>
+                            <p><i class="fas fa-envelope"></i> info@elegantstrings.com</p>
+                            <p><i class="fas fa-globe"></i> elegantstrings.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catering Partners -->
+                <div class="partner-card" data-category="catering">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Gourmet Catering Co.">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Gourmet Catering Co.</h3>
+                        <p class="partner-category">Catering</p>
+                        <p class="partner-description">Artisanal cuisine with locally sourced ingredients and customizable menus for every taste.</p>
+                        <div class="partner-features">
+                            <span>Farm to Table</span>
+                            <span>Dietary Accommodations</span>
+                            <span>Full Service</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 789-0123</p>
+                            <p><i class="fas fa-envelope"></i> events@gourmetcatering.com</p>
+                            <p><i class="fas fa-globe"></i> gourmetcatering.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partner-card" data-category="catering">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Sweet Dreams Bakery">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Sweet Dreams Bakery</h3>
+                        <p class="partner-category">Catering</p>
+                        <p class="partner-description">Custom wedding cakes and dessert bars that are as beautiful as they are delicious.</p>
+                        <div class="partner-features">
+                            <span>Custom Cakes</span>
+                            <span>Dessert Bars</span>
+                            <span>Gluten Free Options</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 890-1234</p>
+                            <p><i class="fas fa-envelope"></i> orders@sweetdreamsbakery.com</p>
+                            <p><i class="fas fa-globe"></i> sweetdreamsbakery.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Florals Partners -->
+                <div class="partner-card" data-category="florals">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Blooms & Beauty Floral">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Blooms & Beauty Floral</h3>
+                        <p class="partner-category">Florals</p>
+                        <p class="partner-description">Artistic floral arrangements and installations that bring your wedding vision to life.</p>
+                        <div class="partner-features">
+                            <span>Custom Arrangements</span>
+                            <span>Installations</span>
+                            <span>Seasonal Flowers</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 901-2345</p>
+                            <p><i class="fas fa-envelope"></i> hello@bloomsandbeauty.com</p>
+                            <p><i class="fas fa-globe"></i> bloomsandbeauty.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venues Partners -->
+                <div class="partner-card" data-category="venues">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1519167758481-83f658d3b0d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Historic Rose Garden Estate">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Historic Rose Garden Estate</h3>
+                        <p class="partner-category">Venues</p>
+                        <p class="partner-description">Charming historic estate with beautiful gardens, perfect for romantic outdoor ceremonies.</p>
+                        <div class="partner-features">
+                            <span>Historic Property</span>
+                            <span>Garden Ceremonies</span>
+                            <span>Indoor/Outdoor Options</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 012-3456</p>
+                            <p><i class="fas fa-envelope"></i> events@rosegardenestate.com</p>
+                            <p><i class="fas fa-globe"></i> rosegardenestate.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beauty Partners -->
+                <div class="partner-card" data-category="beauty">
+                    <div class="partner-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Glamour Studio">
+                        <div class="partner-overlay">
+                            <div class="partner-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner-info">
+                        <h3>Glamour Studio</h3>
+                        <p class="partner-category">Beauty</p>
+                        <p class="partner-description">Professional hair and makeup artists specializing in bridal beauty that lasts all day.</p>
+                        <div class="partner-features">
+                            <span>Bridal Hair & Makeup</span>
+                            <span>Bridal Party Services</span>
+                            <span>On-Location Services</span>
+                        </div>
+                        <div class="partner-contact">
+                            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                            <p><i class="fas fa-envelope"></i> bookings@glamourstudio.com</p>
+                            <p><i class="fas fa-globe"></i> glamourstudio.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership Benefits -->
+    <section class="partnership-benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Work With My Partners?</h2>
+                <p>These trusted professionals are carefully selected for their quality, reliability, and commitment to excellence.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Vetted Quality</h3>
+                    <p>Each partner has been personally vetted for their quality of work, professionalism, and client satisfaction.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Seamless Coordination</h3>
+                    <p>My partners work together seamlessly, ensuring your day flows perfectly without any hiccups.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Preferred Pricing</h3>
+                    <p>Enjoy special rates and packages when booking multiple services through my partner network.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Reliability Guarantee</h3>
+                    <p>All partners are fully insured, licensed, and committed to delivering exceptional service on your special day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Plan Your Perfect Day?</h2>
+                <p>Let me connect you with the perfect vendors for your wedding vision</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Start Planning Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Claire's Events</h3>
+                    <p>Creating unforgettable moments, one event at a time.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#services">Full Wedding Planning</a></li>
+                        <li><a href="index.html#services">Event Coordination</a></li>
+                        <li><a href="index.html#services">Design & Styling</a></li>
+                        <li><a href="index.html#services">Special Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> claire@clairesevents.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Your City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Claire's Events. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
